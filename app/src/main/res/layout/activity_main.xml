@@ -19,16 +19,17 @@
 
         <EditText
             android:id="@+id/editTextNazwaZapisz"
-            android:layout_width="290dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
+            android:layout_weight="1"
             android:ems="10"
             android:hint="@string/nazwa_pliku"
             android:inputType="textPersonName" />
 
         <Button
             android:id="@+id/przyciskZapisz"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/zapisz" />
 
@@ -42,16 +43,16 @@
 
         <Spinner
             android:id="@+id/spinnerNazwaCzytaj"
-            android:layout_width="290dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
+            android:layout_weight="1"
             android:background="#4CAF50" />
 
         <Button
             android:id="@+id/przyciskCzytaj"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="@string/czytaj" />
     </LinearLayout>
 

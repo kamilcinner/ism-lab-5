@@ -67,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onResume() {
-        odczytajSharePreferences();
         super.onResume();
 
         nazwyPlikow = new ArrayList<>();
